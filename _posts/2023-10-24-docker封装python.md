@@ -25,10 +25,9 @@ tags:
 可能下载的很慢，耐心等待，尽量不要让他中途终端（保持网络良好），如果看着好久没动了，可以按几下回车试试
 
 
-![image](https://github.com/Tylen11/blog/assets/74086157/2cd1b608-5865-4a52-a7d6-631bc05b7227)
-
+![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/2.png)
 安装完成
-![image](https://github.com/Tylen11/blog/assets/74086157/d2b04a7a-afe5-4ca0-a992-b7d35aabb17c)
+![image]([https://github.com/Tylen11/blog/assets/74086157/d2b04a7a-afe5-4ca0-a992-b7d35aabb17c](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/3.png))
 
 
 
@@ -39,7 +38,7 @@ tags:
 `wsl --install -d Ubuntu`
 可能会有点慢 ，长时间没反应就回车一下
 
-![image](https://github.com/Tylen11/blog/assets/74086157/ffca8896-f979-4a5f-9da8-d1bc259164b5)
+![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/4.png)
 
 
 输入用户名和密码（我这里输入用户名和密码的时候出了一点意外）
@@ -47,8 +46,8 @@ tags:
 用户名：zhangjingqi
 
 密码：123456（输入密码的时候不会显示，自己把握好就行了）
-![image](https://github.com/Tylen11/blog/assets/74086157/c25c70c2-2c5e-4ecb-a68c-ed3f0ce1c4d2)
-![image](https://github.com/Tylen11/blog/assets/74086157/c1f81289-dde3-40f2-ac86-93d2271831aa)
+![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/5.png)
+![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/6.png)
 
 ###  2 安装windows版本的docker-desktop
 网址：
@@ -60,19 +59,19 @@ tags:
 - 下图的意思是添加桌面快捷方式，可以加也可以不加，看个人爱好，然后点击OK
 - 
 - 
-- ![image](https://github.com/Tylen11/blog/assets/74086157/d0708dd0-6537-45fc-8a66-9dfaf890625a)
+- ![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/7.png)
 
-![image](https://github.com/Tylen11/blog/assets/74086157/71d589cc-a227-4796-89d5-9a75a47321e3)
+![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/8.png)
 
  
 
 下面提示安装成功，重启电脑，点击蓝色的就好
-![image](https://github.com/Tylen11/blog/assets/74086157/ec6c7f2a-35c5-4d5f-97a7-1ec5ea1c19b6)
+![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/9.png)
 
 
 被迫接受条款
 
-![image](https://github.com/Tylen11/blog/assets/74086157/26a211e9-3889-404e-978b-859950b26565)
+![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/10.png)
 
 
  
@@ -80,13 +79,12 @@ tags:
 出现下面这个界面表示安装成功了
 
 
-![image](https://github.com/Tylen11/blog/assets/74086157/0403d34d-b38a-4c64-8461-a62406db82f3)
+![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/11.png)
 
  
 
 2.1 修改镜像
-![image](https://github.com/Tylen11/blog/assets/74086157/ded2c6e0-5019-49d1-ba66-606283d24ac1)
-
+![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/12.png)
 
 ```
 {
@@ -111,43 +109,52 @@ tags:
 ```
 
 一直转转转，等一会就可以了，不转了就可以了
-![image](https://github.com/Tylen11/blog/assets/74086157/0a890fc3-e752-4adf-93b0-3eaca644fb61)
+![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/13.png)
 
 ### 3 docker容器环境搭建
 **3.1 ubuntu基础镜像选择**
 （1） [docker hub](https://hub.docker.com/_/ubuntu)镜像选取
-<img width="1433" alt="image" src="https://github.com/Tylen11/blog/assets/74086157/2dc99b51-8915-4032-a90f-74921733dba9">
+<img width="1433" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/14.png)
+">
 （2）ubuntu 终端拉取ubuntu:20.04基础环境
 `docker pull ubuntu:20.04`
-<img width="602" alt="image" src="https://github.com/Tylen11/blog/assets/74086157/4360775f-235b-4222-a516-8835a1b64d94">
+<img width="602" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/15.png)
+">
 （3）以ubuntu系统搭建ubuntu系统容器
 docker run -it ubuntu:20.04 /bin/bash
-<img width="629" alt="image" src="https://github.com/Tylen11/blog/assets/74086157/134dedaf-5ef1-4ce3-9f61-c4fec8aa566b">
+<img width="629" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/16.png)
+">
 **3.2 安装conda**
 （1）下载最新版conda（注：是linux版本）
 [https://docs.conda.io/projects/miniconda/en/latest/](https://docs.conda.io/projects/miniconda/en/latest/)
-<img width="1435" alt="image" src="https://github.com/Tylen11/blog/assets/74086157/1c3b05ee-dc60-4458-9e2a-e0f7b465cef7">
+<img width="1435" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/17.png)
+">
 （2）将下载好的conda.sh文件拷贝到新建的ubuntu容器内
 注：
 a、容器id用`docker ps`查看
 b、/mnt/d/路径为宿主机（windows）本地路径
 `docker cp /mnt/d/downloads/*.sh 容器id:/home/`
-<img width="1067" alt="image" src="https://github.com/Tylen11/blog/assets/74086157/fd7efcd6-aebf-4973-bbf0-78a3b859f4e0">
+<img width="1067" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/18.png)
+">
 （3）安装 conda
 - 进入新建的ubuntu容器内
 `docker exec -it 容器id bash`
 - 安装Miniconda3-latest-Linux-x86_64.sh
 `sh Miniconda3-latest-Linux-x86_64.sh`
 - 回车、连续空格，yes
-<img width="775" alt="image" src="https://github.com/Tylen11/blog/assets/74086157/c2332627-4fe0-4056-b240-214ac713767c">
+<img width="775" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/19.png)
+">
 
-<img width="1076" alt="image" src="https://github.com/Tylen11/blog/assets/74086157/43337068-75c5-4df7-a29b-cf92d8d56749">
+<img width="1076" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/20.png)
+">
 
-<img width="771" alt="image" src="https://github.com/Tylen11/blog/assets/74086157/a1012dc7-390d-4b60-8770-648369a74fa8">
+<img width="771" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/21.png)
+">
 
 - 配置环境变量
 `vim ~/ .bashrc`
-<img width="368" alt="image" src="https://github.com/Tylen11/blog/assets/74086157/5b449334-3cd5-4f9f-83cf-f09125ffa742">
+<img width="368" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/22.png)
+">
 
 添加一行 
 `export PATH=/root/miniconda3/bin$PATH`

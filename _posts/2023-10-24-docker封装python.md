@@ -17,7 +17,7 @@ tags:
 1.必须运行Windows10版本2004及更高版本或Windows11
 2.在下图的位置开启虚拟化，一般是开启的，最好看一眼，预防万一
 
-![image](https://github.com/Tylen11/blog/assets/74086157/7eaca5eb-503f-4ac4-b3d2-373d0f9f64cb)
+![image]([https://github.com/Tylen11/blog/assets/74086157/7eaca5eb-503f-4ac4-b3d2-373d0f9f64cb](https://github.com/rain966/rain966.github.io/blob/master/img-post/274463075-7eaca5eb-503f-4ac4-b3d2-373d0f9f64cb.png))
 
 
 管理员的身份启动命令窗口，输入：`wsl --install`

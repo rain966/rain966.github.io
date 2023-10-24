@@ -114,28 +114,37 @@ tags:
 ### 3 docker容器环境搭建
 **3.1 ubuntu基础镜像选择**
 （1） [docker hub](https://hub.docker.com/_/ubuntu)镜像选取
+
 （2）ubuntu 终端拉取ubuntu:20.04基础环境
 `docker pull ubuntu:20.04`
+
 （3）以ubuntu系统搭建ubuntu系统容器
-docker run -it ubuntu:20.04 /bin/bash
+`docker run -it ubuntu:20.04 /bin/bash`
+
 **3.2 安装conda**
+
 （1）下载最新版conda（注：是linux版本）
 [https://docs.conda.io/projects/miniconda/en/latest/](https://docs.conda.io/projects/miniconda/en/latest/)
 
 （2）将下载好的conda.sh文件拷贝到新建的ubuntu容器内
 注：
 a、容器id用`docker ps`查看
+
 b、/mnt/d/路径为宿主机（windows）本地路径
+
 `docker cp /mnt/d/downloads/*.sh 容器id:/home/`
 
 （3）安装 conda
+
 - 进入新建的ubuntu容器内
 `docker exec -it 容器id bash`
+
 - 安装Miniconda3-latest-Linux-x86_64.sh
 `sh Miniconda3-latest-Linux-x86_64.sh`
+
 - 回车、连续空格，yes
-- 配置环境变量
-`vim ~/ .bashrc`
+  
+- 配置环境变量`vim ~/ .bashrc`
 
 添加一行 
 `export PATH=/root/miniconda3/bin$PATH`
@@ -144,6 +153,7 @@ b、/mnt/d/路径为宿主机（windows）本地路径
 
 - 重启容器
 `docker exec -it 容器id bash`
+
 - 安装python
 `conda create -n mypy3.18 python=3.8`
 
@@ -154,10 +164,13 @@ b、/mnt/d/路径为宿主机（windows）本地路径
 `python -V`
 
 （4）将搭建好的容器环境生成新的镜像
+
 `10.25.23.1:31001/kty/nas-sim:0.1.0`
+
 安装完运行环境后，不要关闭容器，使用命令“docker ps”查看容器id，再使用命令“`docker commit -m="add env" -a="ztx" xxxxxxxx pca:test2`”将容器保存为新镜像
 -m="add env"为提交时的说明文字，-a="ztx"为提交的镜像作者，xxxxxxxx为查出的容器id，pca:test2为容器名和版本号
 （5）导出镜像包
+
 使用命令“`docker save -o pca-test2.tar.gz pca:test2`”将镜像pca:test2保存至本地pca-test2.tar.gz为包名称；pca:test2为容器名和版本号
 
 （正文内容）

@@ -114,58 +114,44 @@ tags:
 ### 3 docker容器环境搭建
 **3.1 ubuntu基础镜像选择**
 （1） [docker hub](https://hub.docker.com/_/ubuntu)镜像选取
-<img width="1433" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/14.png">
 （2）ubuntu 终端拉取ubuntu:20.04基础环境
 `docker pull ubuntu:20.04`
-<img width="602" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/15.png">
 （3）以ubuntu系统搭建ubuntu系统容器
 docker run -it ubuntu:20.04 /bin/bash
-<img width="629" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/16.png">
 **3.2 安装conda**
 （1）下载最新版conda（注：是linux版本）
 [https://docs.conda.io/projects/miniconda/en/latest/](https://docs.conda.io/projects/miniconda/en/latest/)
-<img width="1435" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/17.png">
+
 （2）将下载好的conda.sh文件拷贝到新建的ubuntu容器内
 注：
 a、容器id用`docker ps`查看
 b、/mnt/d/路径为宿主机（windows）本地路径
 `docker cp /mnt/d/downloads/*.sh 容器id:/home/`
-<img width="1067" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/18.png">
+
 （3）安装 conda
 - 进入新建的ubuntu容器内
 `docker exec -it 容器id bash`
 - 安装Miniconda3-latest-Linux-x86_64.sh
 `sh Miniconda3-latest-Linux-x86_64.sh`
 - 回车、连续空格，yes
-<img width="775" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/19.png">
-
-<img width="1076" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/20.png">
-
-<img width="771" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/21.png">
-
 - 配置环境变量
 `vim ~/ .bashrc`
-<img width="368" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/22.png">
 
 添加一行 
 `export PATH=/root/miniconda3/bin$PATH`
 `:wq`
 `resource ~/ .bashrc`
-<img width="718" alt="image" src="https://github.com/Tylen11/blog/assets/74086157/989a659b-1727-4982-abdb-a4728ea45cac">
-<img width="388" alt="image" src="https://github.com/Tylen11/blog/assets/74086157/246dcb66-7a88-482a-b7e4-dcc349f04bea">
+
 - 重启容器
 `docker exec -it 容器id bash`
 - 安装python
 `conda create -n mypy3.18 python=3.8`
-<img width="549" alt="image" src="https://github.com/Tylen11/blog/assets/74086157/193793fc-71c7-4ee5-8f8d-2e26768cdb21">
 
 - 环境激活
 `conda activate mypy3.8`
-<img width="469" alt="image" src="https://github.com/Tylen11/blog/assets/74086157/41e741f0-7c56-4b25-85e5-7fa3882f67a0">
 
 - 查看python版本
 `python -V`
-<img width="411" alt="image" src="https://github.com/Tylen11/blog/assets/74086157/dcfb7eb5-0936-4c7c-9258-24847438a882">
 
 （4）将搭建好的容器环境生成新的镜像
 `10.25.23.1:31001/kty/nas-sim:0.1.0`

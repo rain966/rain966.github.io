@@ -172,5 +172,3 @@ b、/mnt/d/路径为宿主机（windows）本地路径
 （5）导出镜像包
 
 使用命令“`docker save -o pca-test2.tar.gz pca:test2`”将镜像pca:test2保存至本地pca-test2.tar.gz为包名称；pca:test2为容器名和版本号
-
-（正文内容）

@@ -114,27 +114,27 @@ tags:
 ### 3 docker容器环境搭建
 **3.1 ubuntu基础镜像选择**
 （1） [docker hub](https://hub.docker.com/_/ubuntu)镜像选取
-<img width="1433" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/14.png)
+<img width="1433" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/14.png
 ">
 （2）ubuntu 终端拉取ubuntu:20.04基础环境
 `docker pull ubuntu:20.04`
-<img width="602" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/15.png)
+<img width="602" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/15.png
 ">
 （3）以ubuntu系统搭建ubuntu系统容器
 docker run -it ubuntu:20.04 /bin/bash
-<img width="629" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/16.png)
+<img width="629" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/16.png
 ">
 **3.2 安装conda**
 （1）下载最新版conda（注：是linux版本）
 [https://docs.conda.io/projects/miniconda/en/latest/](https://docs.conda.io/projects/miniconda/en/latest/)
-<img width="1435" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/17.png)
+<img width="1435" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/17.png
 ">
 （2）将下载好的conda.sh文件拷贝到新建的ubuntu容器内
 注：
 a、容器id用`docker ps`查看
 b、/mnt/d/路径为宿主机（windows）本地路径
 `docker cp /mnt/d/downloads/*.sh 容器id:/home/`
-<img width="1067" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/18.png)
+<img width="1067" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/18.png
 ">
 （3）安装 conda
 - 进入新建的ubuntu容器内
@@ -142,18 +142,18 @@ b、/mnt/d/路径为宿主机（windows）本地路径
 - 安装Miniconda3-latest-Linux-x86_64.sh
 `sh Miniconda3-latest-Linux-x86_64.sh`
 - 回车、连续空格，yes
-<img width="775" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/19.png)
+<img width="775" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/19.png
 ">
 
-<img width="1076" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/20.png)
+<img width="1076" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/20.png
 ">
 
-<img width="771" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/21.png)
+<img width="771" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/21.png
 ">
 
 - 配置环境变量
 `vim ~/ .bashrc`
-<img width="368" alt="image" src="(https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/22.png)
+<img width="368" alt="image" src="https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/22.png
 ">
 
 添加一行 

@@ -27,7 +27,7 @@ tags:
 
 ![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/2.png)
 安装完成
-![image]([https://github.com/Tylen11/blog/assets/74086157/d2b04a7a-afe5-4ca0-a992-b7d35aabb17c](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/3.png))
+![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/3.png)
 
 
 

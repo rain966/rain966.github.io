@@ -100,13 +100,14 @@ tags:
 ```
 
 一直转转转，等一会就可以了，不转了就可以了
+
 ![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/13.png)
 
 ### 3 docker容器环境搭建
 
 **3.1 ubuntu基础镜像选择**
 
-（1） [docker hub](https://hub.docker.com/_/ubuntu)镜像选取
+（1）镜像选取 [docker hub](https://hub.docker.com/_/ubuntu)
 
 （2）ubuntu 终端拉取ubuntu:20.04基础环境
 `docker pull ubuntu:20.04`
@@ -120,7 +121,9 @@ tags:
 [https://docs.conda.io/projects/miniconda/en/latest/](https://docs.conda.io/projects/miniconda/en/latest/)
 
 （2）将下载好的conda.sh文件拷贝到新建的ubuntu容器内
+
 注：
+
 a、容器id用`docker ps`查看
 
 b、/mnt/d/路径为宿主机（windows）本地路径

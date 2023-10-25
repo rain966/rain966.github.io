@@ -43,7 +43,7 @@ tags:
 
 输入用户名和密码（我这里输入用户名和密码的时候出了一点意外）
 
-用户名：zhangjingqi
+用户名：xiaoyu
 
 密码：123456（输入密码的时候不会显示，自己把握好就行了）
 ![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/5.png)
@@ -57,33 +57,24 @@ tags:
 下载完成之后双击运行
 
 - 下图的意思是添加桌面快捷方式，可以加也可以不加，看个人爱好，然后点击OK
-- 
-- 
-- ![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/7.png)
+![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/7.png)
 
 ![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/8.png)
 
  
-
 下面提示安装成功，重启电脑，点击蓝色的就好
 ![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/9.png)
-
 
 被迫接受条款
 
 ![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/10.png)
 
-
- 
-
 出现下面这个界面表示安装成功了
-
 
 ![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/11.png)
 
- 
-
 2.1 修改镜像
+
 ![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/12.png)
 
 ```
@@ -112,7 +103,9 @@ tags:
 ![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/13.png)
 
 ### 3 docker容器环境搭建
+
 **3.1 ubuntu基础镜像选择**
+
 （1） [docker hub](https://hub.docker.com/_/ubuntu)镜像选取
 
 （2）ubuntu 终端拉取ubuntu:20.04基础环境
@@ -147,6 +140,7 @@ b、/mnt/d/路径为宿主机（windows）本地路径
 - 配置环境变量`vim ~/ .bashrc`
 
 添加一行 
+
 `export PATH=/root/miniconda3/bin$PATH`
 `:wq`
 `resource ~/ .bashrc`

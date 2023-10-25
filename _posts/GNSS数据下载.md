@@ -1,0 +1,100 @@
+
+
+@[toc](GNSS数据下载（most ftp:）)
+
+# ITRF测站参考坐标
+
+[https://itrf.ign.fr/ITRF_solutions/index.php](https://itrf.ign.fr/ITRF_solutions/index.php)
+[ftp://anonymous:admin@igs-rf.ign.fr/pub/coord/](ftp://anonymous:admin@igs-rf.ign.fr/pub/coord/)
+
+# 德国地学中心（GFZ）最终sp3、clk、erp、snx、sum文件
+
+[ftp://anonymous:admin@ftp.gfz-potsdam.de/pub/GNSS/products/final/](ftp://anonymous:admin@ftp.gfz-potsdam.de/pub/GNSS/products/final/)
+
+# 北斗三数据下载
+
+[ftp://anonymous:admin@ftp.gfz-potsdam.de/pub/GNSS/products/mgex/](ftp://anonymous:admin@ftp.gfz-potsdam.de/pub/GNSS/products/mgex/)
+
+# 观测站数据下载
+
+ - rinex2版本观测文件（武汉大学数据中心）
+
+[ftp://anonymous:admin@igs.gnsswhu.cn/pub/gps/data/daily/](ftp://anonymous:admin@igs.gnsswhu.cn/pub/gps/data/daily/)
+
+ - rinex3版本的观测文件
+
+[ftp://anonymous:admin@igs.ign.fr/pub/igs/data/campaign/mgex/daily/rinex3/](ftp://anonymous:admin@igs.ign.fr/pub/igs/data/campaign/mgex/daily/rinex3/)
+[ftp://anonymous:admin@igs.ensg.ign.fr/pub/igs/data/2020/](ftp://anonymous:admin@igs.ensg.ign.fr/pub/igs/data/2020/)
+
+[ftp://anonymous:admin@igs.gnsswhu.cn/pub/gps/data/daily/](ftp://anonymous:admin@igs.gnsswhu.cn/pub/gps/data/daily/)
+
+ - 不同测站的广播星历（ABMF*CN.rnx）
+[ftp://anonymous:admin@igs.ensg.ign.fr/pub/igs/data/2020/](ftp://anonymous:admin@igs.ensg.ign.fr/pub/igs/data/2020/)
+
+# 电离层产品
+
+ - ionex文件
+
+[ftp://anonymous:admin@ftp.gipp.org.cn/product/ionex/](ftp://anonymous:admin@ftp.gipp.org.cn/product/ionex/)
+
+ - BDGIM源码
+
+[ftp://anonymous:admin@ftp.gipp.org.cn/product/bdgim/](ftp://anonymous:admin@ftp.gipp.org.cn/product/bdgim/)
+
+ - 电离层混合广播星历（BRDC*MN.rnx）
+
+[ftp://anonymous:admin@igs.ign.fr/pub/igs/data/2020/](ftp://anonymous:admin@igs.ign.fr/pub/igs/data/2020/)
+[ftp://anonymous:admin@epncb.oma.be/pub/obs/BRDC/2020/](ftp://anonymous:admin@epncb.oma.be/pub/obs/BRDC/2020/)
+ - 电离层各系统广播星历（BRDC*CN.rnx）
+[ftp://anonymous:admin@igs.bkg.bund.de/IGS/BRDC/2020/](ftp://anonymous:admin@igs.bkg.bund.de/IGS/BRDC/2020/)
+
+
+# sp3精密轨道/clk钟差文件/snx文件
+
+- IGS数据中心
+
+[ftp://anonymous:admin@igs.ign.fr/pub/igs/products/mgex/](ftp://anonymous:admin@igs.ign.fr/pub/igs/products/mgex/)
+
+ - GFZ 5MIN快速精密轨道（gbm）
+
+[ftp://anonymous:admin@ftp.gfz-potsdam.de/pub/GNSS/products/mgex/](ftp://anonymous:admin@ftp.gfz-potsdam.de/pub/GNSS/products/mgex/)
+
+ - 美国SOPAC全球数据中心
+
+[ftp://anonymous:admin@garner.ucsd.edu/archive/garner/products/](ftp://anonymous:admin@garner.ucsd.edu/archive/garner/products/)
+
+
+# erp地球自转参数
+
+强推！武汉大学数据中心
+[ftp://anonymous:admin@igs.gnsswhu.cn/pub/gps/products/2096/](ftp://anonymous:admin@igs.gnsswhu.cn/pub/gps/products/2096/)
+
+[ftp://anonymous:admin@igs.ign.fr/pub/igs/products/](ftp://anonymous:admin@igs.ign.fr/pub/igs/products/)
+
+
+# ATX天线相位（igs14）文件
+
+[ftp://anonymous:admin@igs-rf.ign.fr/pub/IGS14/](ftp://anonymous:admin@igs-rf.ign.fr/pub/IGS14/)
+
+
+# DCB
+
+ - IGS官方DCB
+
+[ftp://anonymous:admin@igs.ign.fr/pub/igs/products/mgex/dcb/](ftp://anonymous:admin@igs.ign.fr/pub/igs/products/mgex/dcb/)
+[ftp://anonymous:admin@igs.ensg.ign.fr/pub/igs/products/mgex/dcb/](ftp://anonymous:admin@igs.ensg.ign.fr/pub/igs/products/mgex/dcb/)
+
+-gipp
+[ftp://anonymous:admin@ftp.gipp.org.cn/](ftp://anonymous:admin@ftp.gipp.org.cn/)
+ - 其他DCB
+
+[ftp://anonymous:admin@cddis.gsfc.nasa.gov/gps/products/mgex/dcb](ftp://anonymous:admin@cddis.gsfc.nasa.gov/gps/products/mgex/dcb)
+光电院电离层产品下载 [http://www.gipp.org.cn](http://www.gipp.org.cn)
+长安大学北斗数据分析中心下载网址:[ftp://anonymous:admin@111.20.170.226/](ftp://anonymous:admin@111.20.170.226/)
+光电院产品下载[ftp://anonymous:admin@123.57.20.171/product/dcb/cas/](ftp://anonymous:admin@123.57.20.171/product/dcb/cas/)
+DLR DCB [ftp://anonymous:admin@cddis.gsfc.nasa.gov/pub/gps/products/mgex/dcb/](ftp://anonymous:admin@cddis.gsfc.nasa.gov/pub/gps/products/mgex/dcb/)
+
+# LEO卫星数据
+[https://swarm-diss.eo.esa.int/](https://swarm-diss.eo.esa.int/)
+
+[ftp://anonymous@swarmdiss.eo.esa.int/Level2daily/Entire_mission_data/TEC/TMS/Sat_A/](ftp://anonymous@swarm-diss.eo.esa.int/Level2daily/Entire_mission_data/TEC/TMS/Sat_A/)

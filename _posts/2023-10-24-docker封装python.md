@@ -43,7 +43,7 @@ tags:
 
 输入用户名和密码（我这里输入用户名和密码的时候出了一点意外）
 
-用户名：xiaoyu
+用户名：xiao
 
 密码：123456（输入密码的时候不会显示，自己把握好就行了）
 ![image](https://raw.githubusercontent.com/rain966/rain966.github.io/master/img-post/docker%E5%B0%81%E8%A3%85/5.png)

@@ -1,0 +1,23 @@
+---
+layout:     post
+title:      三条命令快速激活Windows10
+subtitle:   win10激活
+date:       2023-11-09
+author:     rain
+header-img: img/the-first.png
+catalog:   true
+tags:
+    - issue
+---
+
+激活步骤
+
+1. 首先，以管理员身份进入`cmd`命令行
+
+2. 输入命令`slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX` ！！！注意，这里一定要等到弹窗出现（弹窗有时候需要等一会儿再出现），点击确定之后，才能进行下一步操作
+
+3. 输入命令`slmgr /skms kms.loli.best` ！！！注意，这里一定要等到弹窗出现（弹窗有时候需要等一会儿再出现），点击确定之后，才能进行下一步操作
+
+4. 输入命令`slmgr /ato`，弹出弹窗成功激活即激活成功！
+
+到这里就成功激活Windows10啦

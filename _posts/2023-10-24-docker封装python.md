@@ -140,13 +140,15 @@ b、/mnt/d/路径为宿主机（windows）本地路径
 
 - 回车、连续空格，yes
   
-- 配置环境变量`vim ~/ .bashrc`
+- 配置环境变量`vim ~/.bashrc`
 
 添加一行 
 
 `export PATH=/root/miniconda3/bin$PATH`
+
 `:wq`
-`resource ~/ .bashrc`
+
+`source ~/ .bashrc`
 
 - 重启容器
 `docker exec -it 容器id bash`

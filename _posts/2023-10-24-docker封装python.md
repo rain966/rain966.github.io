@@ -144,7 +144,7 @@ b、/mnt/d/路径为宿主机（windows）本地路径
 
 添加一行 
 
-`export PATH=/root/miniconda3/bin$PATH`
+`export PATH=/root/miniconda3/bin:$PATH`
 
 `:wq`
 
